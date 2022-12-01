@@ -1,0 +1,63 @@
+.form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-login {
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: .3rem;
+}
+
+.form-login-input {
+  height: 2.6rem;
+  width: 25rem;
+}
+
+.form-title p {
+  font-size: .9em;
+}
+
+.form-title h3 {
+  font-size: 1.5em;
+  color: #5bc0de;
+  text-shadow: none;
+}
+
+main {
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+footer {
+  background-color: #3a3f44;
+  padding: 1rem;
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.form-create{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control-create, .input-group-text {
+  height: 1.9rem;
+}
+
+.form-control-create {
+  width: 20rem;
+  border-radius: 2px;
+  border-style: none;
+  margin-left: 6px;
+  margin-left: 1rem;
+}
