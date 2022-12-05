@@ -3,6 +3,9 @@ import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import TableOrder from './components/TableOrder'
 
+import { useEffect, useState } from "react"
+import axios from "axios"
+
 export default function () {
     return (
         <>
